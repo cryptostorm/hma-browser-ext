@@ -1,0 +1,70 @@
+Does this seem legit?
+
+507495: URL_REQUEST
+https://piwik.digineo.de/piwik.php?action_name=Certificate%20decoder%20%C2%B7%20SSL-Tools&idsite=3&rec=1&r=045292&h=4&m=20&s=59&url=https%3A%2F%2Fssl-tools.net%2Fcertificate-decoder&_id=1beb95d7eb01f51b&_idts=1424189525&_idvc=21&_idn=0&_refts=1424853185&_viewts=1424850236&_ref=https%3A%2F%2Fgithub.com%2Fkonklone%2Fshaaaaaaaaaaaaa%2Fissues%2F24&send_image=0&pdf=1&qt=0&realp=0&wma=0&dir=0&fla=0&java=1&gears=0&ag=0&cookie=1&res=1680x1050&gt_ms=175
+Start Time: 2015-02-25 04:20:59.654
+
+t=17646474 [st=  0] +REQUEST_ALIVE  [dt=651]
+t=17646474 [st=  0]   +URL_REQUEST_DELEGATE  [dt=2]
+t=17646474 [st=  0]      DELEGATE_INFO  [dt=2]
+                         --> delegate_info = "extension Adblock Plus"
+t=17646476 [st=  2]   -URL_REQUEST_DELEGATE
+t=17646476 [st=  2]   +URL_REQUEST_START_JOB  [dt=648]
+                       --> load_flags = 117473280 (DO_NOT_PROMPT_FOR_LOGIN | DO_NOT_USE_EMBEDDED_IDENTITY | MAYBE_USER_GESTURE | VERIFY_EV_CERT)
+                       --> method = "GET"
+                       --> priority = "IDLE"
+                       --> url = "https://piwik.digineo.de/piwik.php?action_name=Certificate%20decoder%20%C2%B7%20SSL-Tools&idsite=3&rec=1&r=045292&h=4&m=20&s=59&url=https%3A%2F%2Fssl-tools.net%2Fcertificate-decoder&_id=1beb95d7eb01f51b&_idts=1424189525&_idvc=21&_idn=0&_refts=1424853185&_viewts=1424850236&_ref=https%3A%2F%2Fgithub.com%2Fkonklone%2Fshaaaaaaaaaaaaa%2Fissues%2F24&send_image=0&pdf=1&qt=0&realp=0&wma=0&dir=0&fla=0&java=1&gears=0&ag=0&cookie=1&res=1680x1050&gt_ms=175"
+t=17646476 [st=  2]     +URL_REQUEST_DELEGATE  [dt=2]
+t=17646476 [st=  2]        DELEGATE_INFO  [dt=2]
+                           --> delegate_info = "extension User-Agent Switcher"
+t=17646478 [st=  4]        CHROME_EXTENSION_MODIFIED_HEADERS
+                           --> deleted_headers = []
+                           --> extension_id = "ffhkkpnppgnfaobgihpdblnhmmbodake"
+                           --> modified_headers = ["User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453.94 Safari/537.36"]
+t=17646478 [st=  4]     -URL_REQUEST_DELEGATE
+t=17646478 [st=  4]      HTTP_CACHE_GET_BACKEND  [dt=0]
+t=17646478 [st=  4]      HTTP_CACHE_OPEN_ENTRY  [dt=0]
+                         --> net_error = -2 (ERR_FAILED)
+t=17646478 [st=  4]      HTTP_CACHE_CREATE_ENTRY  [dt=0]
+t=17646478 [st=  4]      HTTP_CACHE_ADD_TO_ENTRY  [dt=0]
+t=17646478 [st=  4]      URL_REQUEST_DELEGATE  [dt=0]
+t=17646478 [st=  4]     +HTTP_STREAM_REQUEST  [dt=464]
+t=17646942 [st=468]        HTTP_STREAM_REQUEST_BOUND_TO_JOB
+                           --> source_dependency = 507501 (HTTP_STREAM_JOB)
+t=17646942 [st=468]     -HTTP_STREAM_REQUEST
+t=17646942 [st=468]     +HTTP_TRANSACTION_SEND_REQUEST  [dt=0]
+t=17646942 [st=468]        HTTP_TRANSACTION_SEND_REQUEST_HEADERS
+                           --> GET /piwik.php?action_name=Certificate%20decoder%20%C2%B7%20SSL-Tools&idsite=3&rec=1&r=045292&h=4&m=20&s=59&url=https%3A%2F%2Fssl-tools.net%2Fcertificate-decoder&_id=1beb95d7eb01f51b&_idts=1424189525&_idvc=21&_idn=0&_refts=1424853185&_viewts=1424850236&_ref=https%3A%2F%2Fgithub.com%2Fkonklone%2Fshaaaaaaaaaaaaa%2Fissues%2F24&send_image=0&pdf=1&qt=0&realp=0&wma=0&dir=0&fla=0&java=1&gears=0&ag=0&cookie=1&res=1680x1050&gt_ms=175 HTTP/1.1
+                               Host: piwik.digineo.de
+                               Connection: keep-alive
+                               Accept: image/webp,*/*;q=0.8
+                               User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453.94 Safari/537.36
+                               DNT: 1
+                               Referer: https://ssl-tools.net/certificate-decoder
+                               Accept-Encoding: gzip, deflate, sdch
+                               Accept-Language: en-GB,en-US;q=0.8,en;q=0.6,es;q=0.4,fr;q=0.2
+t=17646942 [st=468]     -HTTP_TRANSACTION_SEND_REQUEST
+t=17646942 [st=468]     +HTTP_TRANSACTION_READ_HEADERS  [dt=182]
+t=17646942 [st=468]        HTTP_STREAM_PARSER_READ_HEADERS  [dt=182]
+t=17647124 [st=650]        HTTP_TRANSACTION_READ_RESPONSE_HEADERS
+                           --> HTTP/1.1 204 No Response
+                               Date: Wed, 25 Feb 2015 09:21:00 GMT
+                               Server: Apache/2.4.7 (Ubuntu)
+                               X-Powered-By: PHP/5.5.9-1ubuntu4.6
+                               P3P: CP='OTI DSP COR NID STP UNI OTPa OUR'
+                               Tk: 1
+                               Set-Cookie: [54 bytes were stripped]
+                               Content-Length: 0
+                               Keep-Alive: timeout=5, max=100
+                               Connection: Keep-Alive
+                               Content-Type: text/html
+t=17647124 [st=650]     -HTTP_TRANSACTION_READ_HEADERS
+t=17647124 [st=650]      HTTP_CACHE_WRITE_INFO  [dt=0]
+t=17647124 [st=650]      HTTP_CACHE_WRITE_DATA  [dt=0]
+t=17647124 [st=650]      HTTP_CACHE_WRITE_INFO  [dt=0]
+t=17647124 [st=650]      URL_REQUEST_DELEGATE  [dt=0]
+t=17647124 [st=650]   -URL_REQUEST_START_JOB
+t=17647124 [st=650]    URL_REQUEST_DELEGATE  [dt=1]
+t=17647125 [st=651]    HTTP_TRANSACTION_READ_BODY  [dt=0]
+t=17647125 [st=651]    HTTP_CACHE_WRITE_DATA  [dt=0]
+t=17647125 [st=651] -REQUEST_ALIVE
